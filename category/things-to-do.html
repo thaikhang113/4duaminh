@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Things to Do - Vietravel Asia</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800&subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="https://vietravelasia.com/static/assets/css/fontawesome-5.14.0.min.css">
+    
+    <style>
+        /* CSS đồng bộ với index.html để không thay đổi giao diện */
+        body { font-family: 'Muli', sans-serif; margin: 0; padding: 0; background-color: #fff; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 15px; }
+        
+        /* Header */
+        .main-header { background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 1000; padding: 10px 0; }
+        .header-content { display: flex; justify-content: space-between; align-items: center; }
+        .logo img { height: 45px; width: auto; }
+        
+        /* Nav - Đường dẫn đã sửa về tương đối */
+        .nav-menu__link { list-style: none; display: flex; gap: 20px; margin: 0; }
+        .nav-menu__link li a { text-decoration: none; color: #333; font-weight: 700; text-transform: uppercase; font-size: 13px; }
+        .nav-menu__link li a:hover { color: #007bff; }
+
+        /* Banner đặc trưng cho từng Category */
+        .category-hero { background: #f4f4f4; padding: 60px 0; text-align: center; border-bottom: 1px solid #eee; }
+        .category-hero h1 { font-size: 32px; font-weight: 800; margin: 0; text-transform: uppercase; color: #004a99; }
+
+        /* Blog Grid */
+        .blog-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 30px; margin: 50px 0; }
+        .post-card { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.05); transition: 0.3s; text-decoration: none; color: inherit; display: block; }
+        .post-card:hover { transform: translateY(-8px); }
+        .post-image { height: 200px; overflow: hidden; }
+        .post-image img { width: 100%; height: 100%; object-fit: cover; }
+        .post-info { padding: 20px; }
+        .post-title { font-size: 18px; font-weight: 700; margin-bottom: 10px; line-height: 1.4; }
+        .post-excerpt { font-size: 14px; color: #666; line-height: 1.5; }
+
+        /* Footer */
+        .footer { background: #111; color: #fff; padding: 40px 0; text-align: center; margin-top: 60px; }
+        .footer img { filter: brightness(0) invert(1); margin-bottom: 15px; }
+		.things-section{
+padding:60px 20px;
+}
+
+.things-container{
+display:flex;
+align-items:center;
+gap:40px;
+max-width:1200px;
+margin:auto;
+}
+
+.things-image{
+flex:1;
+}
+
+.things-image img{
+width:100%;
+border-radius:10px;
+}
+
+.things-text{
+flex:1;
+}
+
+.things-text h1{
+font-size:32px;
+margin-bottom:20px;
+}
+
+.things-text p{
+font-size:18px;
+line-height:1.7;
+margin-bottom:15px;
+}
+
+.things-text h3{
+margin-top:20px;
+color:#2c7a4b;
+}
+    </style>
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="../index.html" class="logo">
+                <img src="https://vietravelasia.com/static/images/logo.png" alt="Vietravel Logo">
+            </a>
+            <nav>
+                <ul class="nav-menu__link">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="latest-news.html">Latest News</a></li>
+                    <li><a href="food-and-drink.html">Food & Drink</a></li>
+                    <li><a href="things-to-do.html">Things To Do</a></li>
+                    <li><a href="places-to-stay.html">Places To Stay</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<section class="things-section">
+
+    <div class="things-container">
+
+        <div class="things-image">
+            <img src="../assets/z7591233066635_7ec8edefebf584598a41f1bfdaf1ed13.jpg" alt="Sapa Travel">
+        </div>
+
+        <div class="things-text">
+
+            <h1>TRỐN PHỐ VỀ BẢN - CHUYẾN ĐI "CHỮA LÀNH" CHUẨN GREEN CÙNG VIETRAVEL! 🎒</h1>
+
+            <p>
+Thanh xuân này đâu chỉ có những bức hình check-in xịn xò, mà còn là những chuyến đi để sẻ chia và tạo ra giá trị thật! Nếu bạn đang tìm kiếm một hành trình vừa "chill" vừa ý nghĩa, thì tour du lịch xanh "Dệt xanh bản sắc H’Mông" tại Sapa cùng Vietravel chính là chân ái!
+</p>
+
+<p><b>Đến với hành trình này, chúng mình sẽ cùng nhau tạo nên những dấu ấn siêu đặc biệt:</b></p>
+
+<p>
+🧶 <b>Gìn giữ nghề truyền thống:</b> Tạm rời màn hình điện thoại, tụi mình sẽ được tận tay trải nghiệm dệt thổ cẩm, làm gốm cùng các cô chú nghệ nhân địa phương. Chuẩn bị "flex" nhẹ những sản phẩm handmade độc bản mang đậm bản sắc vùng cao thôi nào!
+</p>
+
+<p>
+♻️ <b>Không rác thải nhựa:</b> Bỏ lại những âu lo và cả... rác nhựa ở nhà! Mang theo bình nước cá nhân, xách chiếc túi tote quen thuộc, chúng mình cùng "Say No" với nhựa dùng một lần để giữ gìn vẻ đẹp nguyên sơ của núi rừng Sapa.
+</p>
+
+<p>
+📚 <b>Hỗ trợ giáo dục & đời sống bản làng:</b> Tuyệt vời nhất là, một phần chi phí từ chuyến đi của bạn sẽ được đóng góp trực tiếp vào "Quỹ giáo dục địa phương". Mỗi bước chân bạn đi là một cuốn sách, một niềm vui được gửi gắm đến các em nhỏ vùng cao đó nha! ❤️
+</p>
+
+<p>
+Đi để sẻ chia, hành trình lưu giữ bản sắc Việt bắt đầu từ chính những lựa chọn của bạn ngày hôm nay. Lên kèo rủ ngay hội cạ cứng "xách balo lên và đi" thôi! 👇
+</p>
+
+<p>
+👉 <b>Đăng ký ngay hành trình của bạn tại:</b>
+</p>
+
+<p>
+🌐 Website: <a href="https://travel.com.vn/" target="_blank">https://travel.com.vn/</a>
+</p>
+
+<p>
+📘 Fanpage: <a href="https://www.facebook.com/vietravel/" target="_blank">https://www.facebook.com/vietravel/</a>
+</p>
+
+<p>
+#Viettravel<br>
+#HanhTrinhLuuGiuBanSacViet #DetXanhBanSacHMong #DuLichXanh #KhongRacThaiNhua #CSR #Sapa
+</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <img src="https://vietravelasia.com/static/images/logo.png" alt="Vietravel Logo" height="35">
+            <p style="font-size: 14px; opacity: 0.7;">© 2026 Vietravel Online. Tĩnh hóa cho GitHub Pages.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

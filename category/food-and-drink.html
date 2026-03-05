@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food and Drink - Vietravel Asia</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800&subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="https://vietravelasia.com/static/assets/css/fontawesome-5.14.0.min.css">
+    
+    <style>
+        /* CSS đồng bộ với index.html để không thay đổi giao diện */
+        body { font-family: 'Muli', sans-serif; margin: 0; padding: 0; background-color: #fff; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 15px; }
+        
+        /* Header */
+        .main-header { background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 1000; padding: 10px 0; }
+        .header-content { display: flex; justify-content: space-between; align-items: center; }
+        .logo img { height: 45px; width: auto; }
+        
+        /* Nav - Đường dẫn đã sửa về tương đối */
+        .nav-menu__link { list-style: none; display: flex; gap: 20px; margin: 0; }
+        .nav-menu__link li a { text-decoration: none; color: #333; font-weight: 700; text-transform: uppercase; font-size: 13px; }
+        .nav-menu__link li a:hover { color: #007bff; }
+
+        /* Banner đặc trưng cho từng Category */
+        .category-hero { background: #f4f4f4; padding: 60px 0; text-align: center; border-bottom: 1px solid #eee; }
+        .category-hero h1 { font-size: 32px; font-weight: 800; margin: 0; text-transform: uppercase; color: #004a99; }
+
+        /* Blog Grid */
+        .blog-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 30px; margin: 50px 0; }
+        .post-card { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.05); transition: 0.3s; text-decoration: none; color: inherit; display: block; }
+        .post-card:hover { transform: translateY(-8px); }
+        .post-image { height: 200px; overflow: hidden; }
+        .post-image img { width: 100%; height: 100%; object-fit: cover; }
+        .post-info { padding: 20px; }
+        .post-title { font-size: 18px; font-weight: 700; margin-bottom: 10px; line-height: 1.4; }
+        .post-excerpt { font-size: 14px; color: #666; line-height: 1.5; }
+
+        /* Footer */
+        .footer { background: #111; color: #fff; padding: 40px 0; text-align: center; margin-top: 60px; }
+        .footer img { filter: brightness(0) invert(1); margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="../index.html" class="logo">
+                <img src="https://vietravelasia.com/static/images/logo.png" alt="Vietravel Logo">
+            </a>
+            <nav>
+                <ul class="nav-menu__link">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="latest-news.html">Latest News</a></li>
+                    <li><a href="food-and-drink.html">Food & Drink</a></li>
+                    <li><a href="things-to-do.html">Things To Do</a></li>
+                    <li><a href="places-to-stay.html">Places To Stay</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="category-hero">
+        <div class="container">
+            <h1>Food and Drink</h1>
+            <p style="color: #666; margin-top: 10px;">Discover the culinary wonders of Asia</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="blog-grid">
+            <div class="post-card">
+                <div class="post-image">
+                    <img src="https://vietravelasia.com/media/images/2024/12/bun-bo-hue-6-0935-thumbnail-f2fa14998362488c378fd2e16dbad33c.jpg" alt="Article 1">
+                </div>
+                <div class="post-info">
+                    <h3 class="post-title">Vietnam's Hue and Hanoi Earn Spots in Global Top 50 Food Cities</h3>
+                    <p class="post-excerpt">Detailed insights into why Hue and Hanoi are must-visit culinary hubs...</p>
+                </div>
+            </div>
+            </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <img src="https://vietravelasia.com/static/images/logo.png" alt="Vietravel Logo" height="35">
+            <p style="font-size: 14px; opacity: 0.7;">© 2026 Vietravel Online. Tĩnh hóa cho GitHub Pages.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
